@@ -4,6 +4,3 @@ __pycache__/
 
 # SQLite
 *.db
-
-# Saved images
-app/static/
