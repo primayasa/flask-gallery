@@ -4,6 +4,17 @@ Website gallery sederhana dengan fitur upload dan delete gambar dengan menggunak
 ## Requirements
 Flask==2.3.2
 
+## Instalasi dengan Docker
+- Clone repository
+- Masuk ke directory project
+- Build docker image
+
+	```docker build -t <nama-image> .```
+
+- Jalankan docker container dengan image yang sudah dibuat
+
+	```docker run --name <nama-container> -d -p 5000:5000 <nama-image>```
+
 ## Instalasi dengan Python Virtual Enviroment
 - Clone repository
 - Masuk ke directory project
